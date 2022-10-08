@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* outline: 1px solid red; */
+}
+.container{
+    width: 60%;
+    background-color: #fcfefd;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+nav input{
+    padding: 7px;
+}
+.navbar{
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: lightgray;
+}
+.margin{
+    margin: 10px;
+}
+
+.login-btn{
+    padding: 7px;
+    width: 60px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 5px 5px 0px black;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.left-main{
+    flex: 2;
+}
+.top-left{
+    border: 1px solid black;
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+.inner-top{
+    text-align: center;
+    flex: 1;
+}
+
+.inner-top h3{
+    font-style: italic;
+    font-weight: normal;
+}
+.inner-paragraph{
+    margin-left: 30px;
+    flex: 2;
+}
+.btn-top{
+    width: 60%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 0px lightgray;
+}
+.bottom-left{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    margin-top: 25px;
+}
+.right-main{
+    border: 1px solid black;
+    /* width: 100%; */
+    height: auto;
+    flex: 1;
+    margin-left: 20px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-main p {
+    font-size: 2em;
+}
+.right-main span{
+    font-weight: bold;
+}
+.right-main p{
+    margin: 10px;
+}
+.btn-right{
+    width: 90%;
+    background-color: limegreen;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 0px lightgray;
+    margin: 12px;
+    padding: 7px;
+}
